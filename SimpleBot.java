@@ -5,7 +5,7 @@ public class SimpleBot {
 	
 	// main
 	public static void main(String[] args) {
-		greet("","");
+		greet("Caprica","2020");
 		remindName();
 		guessAge();
 		count();
@@ -45,7 +45,7 @@ public class SimpleBot {
 	
 	static void test() {
 		System.out.println("Let's test your knowledge.");
-		int answer;
+		int uInput;
 		while (true) {
 			System.out.println("Does all of this have to happen again?");
             System.out.println("1. Yes");
